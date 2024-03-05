@@ -179,6 +179,11 @@
   background-color: #f4f5f7;
 }
 
+.product-item:hover {
+  box-shadow: 5px 5px 10px #b5b3b3;
+  cursor: pointer;
+}
+
 .product-item img {
   width: 100%;
 }
@@ -441,4 +446,123 @@
 .more-button button:hover {
   background-color: #b88e2f;
   color: #ffffff;
+}
+
+.share {
+  padding-top: 4em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.share p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #616161;
+}
+
+.share h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+
+.gallery-container {
+  padding: 2em 0 3em 0;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-row: auto;
+  gap: 10px;
+  align-items: center;
+}
+
+.gallery-container img {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em 7em 2em 4em;
+}
+
+.footer li a:hover {
+  text-decoration: underline;
+}
+
+.footer h1 {
+  margin-bottom: 2em;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.column1 p {
+  color: #9f9f9f;
+}
+
+.column2 p {
+  margin-bottom: 2em;
+  color: #9f9f9f;
+  font-weight: 500;
+}
+
+.column2 li a {
+  color: #000000;
+  font-weight: 500;
+}
+
+.column2 li {
+  margin-bottom: 2em;
+}
+
+.column3 p {
+  margin-bottom: 2em;
+  color: #9f9f9f;
+  font-weight: 500;
+}
+
+.column3 li a {
+  color: #000000;
+  font-weight: 500;
+}
+
+.column3 li {
+  margin-bottom: 2em;
+}
+
+.column4 p {
+  margin-bottom: 2em;
+  color: #9f9f9f;
+  font-weight: 500;
+}
+
+.column4 input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  background-color: transparent;
+  margin-right: 1em;
+  padding: 0.3em;
+}
+
+.subscribe {
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.subscribe:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: hidden;
+  border-radius: 10%;
+}
+
+.rights {
+  padding: 2em;
+}
+
+hr {
+  border: none;
+  background-color: #c6c0c0;
+  height: 1px;
 }
